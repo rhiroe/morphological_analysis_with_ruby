@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fasttext (0.2.3)
+      rice (>= 4.0.2)
+    ffi (1.15.4)
+    htmlentities (4.3.4)
+    natto (1.2.0)
+      ffi (>= 1.9.0)
+    nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
+    parallel (1.21.0)
+    racc (1.6.0)
+    rice (4.0.2)
+    trollop (2.9.10)
+    wp2txt (0.9.1)
+      htmlentities
+      nokogiri
+      parallel
+      trollop
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  fasttext
+  natto
+  wp2txt
+
+BUNDLED WITH
+   2.2.5
